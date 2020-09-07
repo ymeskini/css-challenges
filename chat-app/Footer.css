@@ -1,0 +1,10 @@
+footer {
+  font-size: 11px;
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}

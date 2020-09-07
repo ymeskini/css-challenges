@@ -13,32 +13,27 @@
     />
 
     <title>Frontend Mentor | Chat App</title>
-    <link rel="stylesheet" href="../normalize.css" />
     <script
       src="https://kit.fontawesome.com/8c36b38076.js"
       crossorigin="anonymous"
     ></script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <figure class="rectangle"></figure>
     <figure class="rectangle-right"></figure>
 
-    <div class="app">
-      <div class="phone">
-        <div class="content">
-          <header>
+    <div class="App">
+      <div class="Phone">
+        <div class="Phone__screen">
+          <header class="Phone__header">
             <i class="fas fa-chevron-left"></i>
             <div class="Phone__header-status">
               <img src="images/avatar.jpg" />
-              <div class="Phone__header-text">
-                <span class="Phone__header-header">Samuel Green</span>
-                <span class="Phone__header-availability"
+              <div class="Phone__header--text">
+                <span class="Phone__header--header">Samuel Green</span>
+                <span class="Phone__header--availability"
                   >Available to Walk</span
                 >
               </div>
@@ -60,9 +55,9 @@
           </section>
         </div>
       </div>
-      <div class="description">
-        <h1>Simple booking</h1>
-        <p>
+      <div class="Copy__container">
+        <h1 class="Copy__header">Simple booking</h1>
+        <p class="Copy__body">
           Stay in touch with our dog walkers through the chat interface. This
           makes it easy to discuss arrangements and make bookings. Once the walk
           has been completed you can rate your walker and book again all through

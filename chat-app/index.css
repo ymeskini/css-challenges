@@ -1,0 +1,22 @@
+@import url("../normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("./theme.css");
+@import url("./Phone.css");
+@import url("./Background.css");
+@import url("./Footer.css");
+@import url("./Copy.css");
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--light-grayish-violet);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
