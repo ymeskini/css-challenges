@@ -14,6 +14,11 @@
 
     <title>Frontend Mentor | Chat App</title>
     <link rel="stylesheet" href="../normalize.css" />
+    <script
+      src="https://kit.fontawesome.com/8c36b38076.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -26,15 +31,33 @@
 
     <div class="app">
       <div class="phone">
-        <header>
-          <img src="images/avatar.jpg" />Samuel Green Available to Walk
-        </header>
         <div class="content">
-          That sounds great. I’d be happy with that. Could you send over some
-          pictures of your dog, please? Here are a few pictures. She’s a happy
-          girl! Can you make it? She looks so happy! The time we discussed
-          works. How long shall I take her out for? 30 minute walk $29 1 hour
-          walk $49 Type a message…
+          <header>
+            <i class="fas fa-chevron-left"></i>
+            <div class="Phone__header-status">
+              <img src="images/avatar.jpg" />
+              <div class="Phone__header-text">
+                <span class="Phone__header-header">Samuel Green</span>
+                <span class="Phone__header-availability"
+                  >Available to Walk</span
+                >
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </header>
+          <section>
+            <div>That sounds great. I’d be happy with that.</div>
+            <div>Could you send over some pictures of your dog, please?</div>
+            <div>Here are a few pictures. She’s a happy girl!</div>
+            <div>Can you make it?</div>
+            <div>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </div>
+            <div>30 minute walk $29</div>
+            <div>1 hour walk $49</div>
+            <div>Type a message…</div>
+          </section>
         </div>
       </div>
       <div class="description">
