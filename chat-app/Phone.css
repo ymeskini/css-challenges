@@ -10,6 +10,7 @@
 }
 
 .Phone__screen {
+  position: relative;
   background-color: #f5f3f7;
   height: 100%;
   border-radius: 20px;
@@ -17,7 +18,7 @@
 }
 
 .Phone__header {
-  padding: 0 8px 0 8px;
+  padding: 0 6px 0 6px;
   height: 66px;
   display: flex;
   flex-direction: row;
@@ -33,6 +34,15 @@
   border-radius: 50%;
   width: 24px;
   border: 1px solid var(--white);
+}
+
+.Phone__headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.Phone__headerLeft i {
+  margin-right: 8px;
 }
 
 .Phone__header--status {
@@ -56,4 +66,102 @@
   font-size: 8px;
   line-height: 9px;
   color: var(--pale-violet);
+}
+
+.Phone__chat {
+  margin-top: 12px;
+  padding: 0 6px 0 6px;
+}
+
+.Phone__chat img {
+  width: 40px;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+.Phone__chat--message {
+  background: #eee5f4;
+  color: var(--moderate-violet);
+  max-width: 128px;
+  padding: 8px 6px 8px 6px;
+  border-radius: 10px 10px 4px 10px;
+  margin-bottom: 8px;
+  font-size: 8px;
+  line-height: 11px;
+}
+
+.Phone__chat--messageRight {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Phone__chat--messageRight span {
+  font-size: 8px;
+  line-height: 11px;
+  padding: 8px 6px 8px 6px;
+  color: #6e5d7e;
+  border-radius: 10px 10px 4px 10px;
+  margin-bottom: 8px;
+  background: var(--white);
+  max-width: 128px;
+}
+
+.Phone__chat--proposition {
+  background: var(--background-linear-gradient);
+  color: var(--white);
+  max-width: 128px;
+  padding: 8px 6px 8px 6px;
+  border-radius: 10px 10px 4px 10px;
+  margin-bottom: 8px;
+  font-size: 8px;
+  line-height: 11px;
+}
+
+.Phone__chat--propositionText {
+  font-size: 8px;
+  line-height: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Phone__chat--propositionFigure {
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid #e472ff;
+}
+
+.Phone__chat--propositionPrice {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+.Phone__chat--photos {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.Phone__screen footer {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+}
+
+.Phone__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: var(--white);
+  border-radius: 16.9544px;
+  height: 32px;
+  margin: 6px;
+  color: #c5c9cc;
+}
+
+.Phone__footer--input {
+  margin-left: 6px;
 }

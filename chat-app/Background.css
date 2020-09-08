@@ -7,7 +7,6 @@
   right: -180px;
   bottom: -318px;
   opacity: 0.03;
-  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .rectangle,
@@ -15,7 +14,7 @@
   width: 510px;
   height: 930px;
   border-radius: 255px;
-  position: absolute;
+  position: fixed;
   background: var(--background-linear-gradient);
   z-index: var(--background-z-index);
 }

@@ -24,35 +24,69 @@
     <figure class="rectangle"></figure>
     <figure class="rectangle-right"></figure>
 
-    <div class="App">
+    <main class="App">
       <div class="Phone">
         <div class="Phone__screen">
           <header class="Phone__header">
-            <i class="fas fa-chevron-left"></i>
-            <div class="Phone__header-status">
-              <img src="images/avatar.jpg" />
-              <div class="Phone__header--text">
-                <span class="Phone__header--header">Samuel Green</span>
-                <span class="Phone__header--availability"
-                  >Available to Walk</span
-                >
+            <div class="Phone__headerLeft">
+              <i class="fas fa-chevron-left"></i>
+              <div class="Phone__header--status">
+                <img src="images/avatar.jpg" />
+                <div class="Phone__header--text">
+                  <span class="Phone__header--header">Samuel Green</span>
+                  <span class="Phone__header--availability"
+                    >Available to Walk</span
+                  >
+                </div>
               </div>
             </div>
-            <i class="fas fa-ellipsis-v"></i>
-          </header>
-          <section>
-            <div>That sounds great. I’d be happy with that.</div>
-            <div>Could you send over some pictures of your dog, please?</div>
-            <div>Here are a few pictures. She’s a happy girl!</div>
-            <div>Can you make it?</div>
             <div>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </header>
+          <section class="Phone__chat">
+            <div class="Phone__chat--message">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="Phone__chat--message">
+              Could you send over some pictures of your dog, please?
+            </div>
+            <div class="Phone__chat--photos">
+              <img src="images/dog-image-1.jpg" /><img
+                src="images/dog-image-2.jpg"
+              />
+              <img src="images/dog-image-3.jpg" />
+            </div>
+            <div class="Phone__chat--messageRight">
+              <span> Here are a few pictures. She’s a happy girl! </span>
+            </div>
+            <div class="Phone__chat--messageRight">
+              <span>Can you make it?</span>
+            </div>
+            <div class="Phone__chat--message">
               She looks so happy! The time we discussed works. How long shall I
               take her out for?
             </div>
-            <div>30 minute walk $29</div>
-            <div>1 hour walk $49</div>
-            <div>Type a message…</div>
+            <div class="Phone__chat--proposition">
+              <div class="Phone__chat--propositionText">
+                <span class="Phone__chat--propositionFigure"></span>
+                <span>30 minute walk</span>
+                <span class="Phone__chat--propositionPrice">$29</span>
+              </div>
+            </div>
+            <div class="Phone__chat--proposition">
+              <div class="Phone__chat--propositionText">
+                <span class="Phone__chat--propositionFigure"></span>
+                <span>1 hour walk</span>
+                <span class="Phone__chat--propositionPrice">$49</span>
+              </div>
+            </div>
           </section>
+          <footer>
+            <div class="Phone__footer">
+              <div class="Phone__footer--input">Type a message…</div>
+            </div>
+          </footer>
         </div>
       </div>
       <div class="Copy__container">
@@ -64,8 +98,8 @@
           the chat.
         </p>
       </div>
-    </div>
-    <footer>
+    </main>
+    <footer class="App__footer">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
