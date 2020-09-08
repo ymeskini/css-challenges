@@ -1,4 +1,6 @@
 .Copy__container {
+  display: flex;
+  flex-direction: column;
   margin-left: 125px;
   max-width: 445px;
 }
@@ -13,4 +15,17 @@
   font-size: 16px;
   line-height: 28px;
   color: var(--dark-grayish-violet);
+}
+
+@media (max-width: 900px) {
+  .Copy__container {
+    margin-top: 64px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .Copy__body {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
 }

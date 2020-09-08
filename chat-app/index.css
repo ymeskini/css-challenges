@@ -3,7 +3,6 @@
 @import url("./theme.css");
 @import url("./Phone.css");
 @import url("./Background.css");
-@import url("./Footer.css");
 @import url("./Copy.css");
 
 body {
@@ -19,4 +18,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+
+@media (max-width: 900px) {
+  .App {
+    margin-top: 64px;
+    flex-direction: column;
+    height: 100%;
+  }
 }

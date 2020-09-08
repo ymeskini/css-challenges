@@ -80,7 +80,7 @@
 }
 
 .Phone__chat--message {
-  background: #eee5f4;
+  background: var(--white);
   color: var(--moderate-violet);
   max-width: 128px;
   padding: 8px 6px 8px 6px;
@@ -100,7 +100,7 @@
   font-size: 8px;
   line-height: 11px;
   padding: 8px 6px 8px 6px;
-  color: #6e5d7e;
+  color: var(--very-dark-desaturated-violet);
   border-radius: 10px 10px 4px 10px;
   margin-bottom: 8px;
   background: var(--white);
@@ -129,7 +129,7 @@
 .Phone__chat--propositionFigure {
   width: 12px;
   border-radius: 50%;
-  border: 1px solid #e472ff;
+  border: 1px solid var(--very-light-magenta);
 }
 
 .Phone__chat--propositionPrice {
@@ -156,10 +156,10 @@
   flex-direction: row;
   align-items: center;
   background: var(--white);
-  border-radius: 16.9544px;
+  border-radius: 16px;
   height: 32px;
   margin: 6px;
-  color: #c5c9cc;
+  color: var(--grayish-blue);
 }
 
 .Phone__footer--input {
