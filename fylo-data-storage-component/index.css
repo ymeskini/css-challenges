@@ -1,0 +1,14 @@
+@import url("../normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("./theme.css");
+
+body {
+  background-image: url("./images/bg-desktop.png");
+  background-repeat: no-repeat;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--light-grayish-violet);
+}
+
+.App {
+}
