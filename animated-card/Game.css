@@ -90,10 +90,6 @@
   transform: translate(150%, -100%);
 }
 
-.Game__back {
-  display: none;
-}
-
 @keyframes gameName {
   0% {
     text-align: left;
@@ -115,4 +111,20 @@
     text-align: center;
     opacity: 1;
   }
+}
+
+.Game__back {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.Game:hover .Game__back {
+  opacity: 1;
+}
+
+.Game__back--streamingInfo {
+  columns: 2;
 }
